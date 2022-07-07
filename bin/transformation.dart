@@ -1,5 +1,6 @@
-import 'package:transformation/transformation.dart' as transformation;
-
 void main(List<String> arguments) {
-  print('Hello world: ${transformation.calculate()}!');
+  final names = ['John', 'Mathew', 'Ram'];
+  final nameLength = names.map((name) => name.length).toList();
+  print(nameLength);
+  print(nameLength[0]);
 }
